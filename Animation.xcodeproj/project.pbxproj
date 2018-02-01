@@ -14,6 +14,12 @@
 		0109F1BD1EB9EB1C00713776 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0109F1BB1EB9EB1C00713776 /* LaunchScreen.storyboard */; };
 		0109F1C81EB9EB1C00713776 /* AnimationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0109F1C71EB9EB1C00713776 /* AnimationTests.swift */; };
 		0109F1D31EB9EB1C00713776 /* AnimationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0109F1D21EB9EB1C00713776 /* AnimationUITests.swift */; };
+		0109F1E11EB9ED3F00713776 /* PositionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0109F1E01EB9ED3F00713776 /* PositionViewController.swift */; };
+		0109F1E31EB9F4DF00713776 /* OpacityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0109F1E21EB9F4DF00713776 /* OpacityViewController.swift */; };
+		0109F1E51EB9FB5500713776 /* ScaleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0109F1E41EB9FB5500713776 /* ScaleViewController.swift */; };
+		0109F1E71EB9FE7800713776 /* ColorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0109F1E61EB9FE7800713776 /* ColorViewController.swift */; };
+		01426A58202175B800EADB06 /* secondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01426A56202175B800EADB06 /* secondViewController.swift */; };
+		01426A59202175B800EADB06 /* secondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01426A57202175B800EADB06 /* secondViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +53,12 @@
 		0109F1CE1EB9EB1C00713776 /* AnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0109F1D21EB9EB1C00713776 /* AnimationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationUITests.swift; sourceTree = "<group>"; };
 		0109F1D41EB9EB1C00713776 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0109F1E01EB9ED3F00713776 /* PositionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PositionViewController.swift; sourceTree = "<group>"; };
+		0109F1E21EB9F4DF00713776 /* OpacityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpacityViewController.swift; sourceTree = "<group>"; };
+		0109F1E41EB9FB5500713776 /* ScaleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScaleViewController.swift; sourceTree = "<group>"; };
+		0109F1E61EB9FE7800713776 /* ColorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorViewController.swift; sourceTree = "<group>"; };
+		01426A56202175B800EADB06 /* secondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondViewController.swift; sourceTree = "<group>"; };
+		01426A57202175B800EADB06 /* secondViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = secondViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +111,12 @@
 			children = (
 				0109F1B21EB9EB1C00713776 /* AppDelegate.swift */,
 				0109F1B41EB9EB1C00713776 /* ViewController.swift */,
+				0109F1E01EB9ED3F00713776 /* PositionViewController.swift */,
+				0109F1E21EB9F4DF00713776 /* OpacityViewController.swift */,
+				01426A56202175B800EADB06 /* secondViewController.swift */,
+				01426A57202175B800EADB06 /* secondViewController.xib */,
+				0109F1E41EB9FB5500713776 /* ScaleViewController.swift */,
+				0109F1E61EB9FE7800713776 /* ColorViewController.swift */,
 				0109F1B61EB9EB1C00713776 /* Main.storyboard */,
 				0109F1B91EB9EB1C00713776 /* Assets.xcassets */,
 				0109F1BB1EB9EB1C00713776 /* LaunchScreen.storyboard */,
@@ -232,6 +250,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01426A59202175B800EADB06 /* secondViewController.xib in Resources */,
 				0109F1BD1EB9EB1C00713776 /* LaunchScreen.storyboard in Resources */,
 				0109F1BA1EB9EB1C00713776 /* Assets.xcassets in Resources */,
 				0109F1B81EB9EB1C00713776 /* Main.storyboard in Resources */,
@@ -259,7 +278,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0109F1E11EB9ED3F00713776 /* PositionViewController.swift in Sources */,
+				01426A58202175B800EADB06 /* secondViewController.swift in Sources */,
+				0109F1E51EB9FB5500713776 /* ScaleViewController.swift in Sources */,
 				0109F1B51EB9EB1C00713776 /* ViewController.swift in Sources */,
+				0109F1E31EB9F4DF00713776 /* OpacityViewController.swift in Sources */,
+				0109F1E71EB9FE7800713776 /* ColorViewController.swift in Sources */,
 				0109F1B31EB9EB1C00713776 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -505,6 +529,7 @@
 				0109F1D91EB9EB1C00713776 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0109F1DA1EB9EB1C00713776 /* Build configuration list for PBXNativeTarget "AnimationTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +538,7 @@
 				0109F1DC1EB9EB1C00713776 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0109F1DD1EB9EB1C00713776 /* Build configuration list for PBXNativeTarget "AnimationUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +547,7 @@
 				0109F1DF1EB9EB1C00713776 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
