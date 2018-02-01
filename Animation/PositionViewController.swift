@@ -26,16 +26,12 @@ class PositionViewController: UIViewController {
     }
     
     override func viewDidAppear(_ animated: Bool) {
-        UIView.animate(withDuration: 1) { 
-         
-        }
+       
         UIView.animate(withDuration: 1, animations: {
             self.purpleSquare.center.x = self.view.bounds.width - self.purpleSquare.center.x
             self.greenSquare.center.y = self.view.bounds.height - self.greenSquare.center.y
             self.redSquare.center.y = self.view.bounds.height - self.redSquare.center.y
             self.redSquare.center.x = self.view.bounds.width - self.redSquare.center.x
-        }) { (Bool) in
-           self.navigationController?.pushViewController(secondViewController, animated: Bool)
-        }
+        })
     }
 }
